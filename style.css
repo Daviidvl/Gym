@@ -103,7 +103,7 @@ form button:hover {
     border-radius: 4px;
     display: none;
     text-align: left;
-    max-width: 700px;
+    width: 200px;
     margin: 1rem auto;
 }
 
