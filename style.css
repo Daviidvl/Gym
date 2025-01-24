@@ -9,7 +9,7 @@
 
 body {
     background-color: black;
-    background-image: url(imagens/gym-background-dr08hyjw70y464su.jpg);
+    background-image: url(imagens/180px.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -40,6 +40,7 @@ main {
 .form-section, 
 .result-section {
     background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
     margin-bottom: 2rem;
     padding: 1.5rem;
     border-radius: 8px;
@@ -90,7 +91,7 @@ form button:hover {
 
 .result-section h2 {
     margin-bottom: 1rem;
-    color: #34B2AE;
+    color: #51ad57;
 }
 
 .result-section p {
@@ -117,7 +118,7 @@ form button:hover {
 }
 
 .btn-treino:hover {
-    background-color: #1e6967;
+    background-color: #51ad57;
     color: white;
 }
 

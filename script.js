@@ -33,70 +33,151 @@ document
     const treinos = {
       homem: {
         emagrecer: {
-          A: ["Corda 3x10 min", "Flexões 4x15", "Abdominais 3x20"],
-          B: ["Corrida 5km", "Burpees 4x12", "Prancha 3x1 min"],
-          C: [
-            "Bicicleta 30 min",
-            "Agachamentos com peso 4x12",
-            "Elevação lateral 3x15",
+          A: [
+            "Supino reto: 4x12",
+            "Supino inclinado com Halteres: 4x12-10",
+            "Crucifixo maquina: 4x12-10",
+            "Triceps corda: 4x12-10",
+            "20 minutos de corrida moderada"
           ],
-          D: ["HIIT 20 min", "Barra fixa 3x10", "Levantamento terra 4x10"],
-          E: ["Natação 30 min", "Boxe 20 min", "Rosca direta 3x15"],
+          B: [
+            "Agachamento livre: 4x12-15",
+            "Passada: 4x12 cada perna",
+            "Elevação pélvica: 4x20",
+            "Panturrilha no degrau: 4x15",
+            "20 minutos de bike",
+            ],
+          C: [
+            "Barra fixa: 4x até a falha",
+            "Remada curvada: 4x10-12",
+            "Pulldown na polia: 4x12",
+            "Rosca direta com barra: 4x10-12",
+            "Rosca martelo: 4x12"
+          ],
+          D: [
+            "Kettlebell swing: 4x15",
+            "Prancha dinâmica (trazer joelhos ao peito): 3 séries de 30s",
+            "Flexão de braços: 4x10-12",
+            "Corrida em sprint (100 metros): 6 repetições"
+            ],
+          E: [
+            "Abdominais variados (prancha, bicicleta, infra): 4 séries",
+            "Burpees: 3x15",
+            "Burpees: 3x15",
+            "HIIT na bicicleta ergométrica: 20 minutos"
+          ],
         },
         ganhar_massa: {
           A: [
-            "Supino reto 4x10",
-            "Supino inclinado 4x10",
-            "Tríceps corda 4x12",
+            "Supino reto com barra: 4x10-12",
+            "Supino inclinado com halteres: 4x10-12",
+            "Supino sentado maquina: 4x12",
+            "Crucifixo maquina: 4x12-10",
+            "Tríceps no pulley: 4x12",
+            "Tríceps testa: 4x10-12",
           ],
-          B: ["Remada curvada 4x10", "Barra fixa 4x8", "Rosca direta 4x12"],
+          B: [
+            "Remada alta: 4x10-12",
+            "Remada curvada: 4x10-12",
+            "Remada unilateral 4x10-12",
+            "Pulldown na polia: 4x12",
+            "Rosca direta com barra: 4x10-12",
+            "Rosca martelo: 4x12"
+          ],
           C: [
-            "Agachamento livre 4x10",
-            "Leg press 4x12",
-            "Cadeira extensora 4x15",
+            "Panturrilha sentado: 4x10-12",
+            "Agachamento livre: 4x8-10",
+            "Leg press 45°: 4x10-12",
+            "Cadeira extensora: 4x10-12",
+            "Passada: 4 x Até a falha",
           ],
           D: [
-            "Desenvolvimento militar 4x10",
-            "Elevação lateral 4x12",
-            "Trapézio com halteres 4x15",
+            "Desenvolvimento com halteres: 4x10-12",
+            "Elevação lateral: 4x12-15",
+            "Elevação frontal: 4x12",
+            "Encolhimento com halteres: 4x15-20",
+            "Face pull: 4x12",
           ],
-          E: ["Levantamento terra 4x8", "Stiff 4x10", "Flexora 4x12"],
+          E: [
+            "Panturrilha em pé: 4x15",
+            "Stiff com halteres: 4x10-12",
+            "Cadeira Flexora: 4x10-12",
+            "Bulgaro: 4x10-12",
+            "Cadeira adutora: 4x10-12",
+            ],
         },
       },
       mulher: {
         emagrecer: {
-          A: ["Esteira 30 min", "Abdominais 4x20", "Passadas 3x20"],
+          A: [
+            "Agachamento sumô: 4x12",
+            "Passada: 3x12 cada perna",
+            "Elevação pélvica com peso: 4x20",
+            "Glúteo na polia: 3x12 cada perna",
+            "HIIT (corrida intervalada): 15 minutos"
+            ],
           B: [
-            "Bicicleta 40 min",
-            "Agachamento com peso 3x12",
-            "Prancha 3x1 min",
+            "Supino reto com halteres: 4x10-12",
+            "Pulldown: 4x10-12",
+            "Rosca martelo: 4x12",
+            "Tríceps no pulley: 4x12",
+            "20 minutos de esteira em inclinação",
           ],
           C: [
-            "HIIT 20 min",
-            "Elevação lateral 3x15",
-            "Stiff com halteres 3x10",
+            "Prancha isométrica: 3 séries de 30s",
+            "Agachamento com salto: 3x15",
+            "Burpees: 3x12",
+            "Corrida moderada: 15 minutos",
           ],
-          D: ["Corrida 5km", "Corda 10 min", "Boxe 20 min"],
+          D: [
+            "Agachamento livre: 4x10-12",
+            "Leg press: 4x12",
+            "Stiff com halteres: 4x12",
+            "Adutor e abdutor: 4x15",
+            "10 minutos de HIIT"
+          ],
           E: [
-            "Pilates 30 min",
-            "Abdominais oblíquos 3x15",
-            "Cadeira adutora 4x15",
+            "Abdominais (bicicleta, prancha, infra): 4 séries",
+            "Jump squats: 3x12",
+            "Passada com peso: 3x12",
+            "25 minutos de corrida leve"
           ],
         },
         ganhar_massa: {
-          A: [
-            "Agachamento livre 4x10",
-            "Leg press 4x12",
-            "Passadas com peso 4x12",
+          A: [  
+            "Agachamento livre: 4x10",
+            "Passada com halteres: 4x12 cada perna",
+            "Elevação pélvica com barra: 4x15-20",
+            "Glúteo na polia: 4x12 cada perna",
+            "Panturrilha: 4x12",
           ],
-          B: ["Remada curvada 4x12", "Pulldown 4x10", "Bíceps martelo 4x12"],
+          B: [
+            "Supino inclinado com halteres: 4x10-12",
+            "Desenvolvimento com halteres: 4x10-12",
+            "Pulldown na polia: 4x10-12",
+            "Rosca direta com halteres: 4x12",
+            "Tríceps no pulley: 4x12",
+            ],
           C: [
-            "Supino inclinado 4x10",
-            "Desenvolvimento Arnold 4x12",
-            "Elevação lateral 4x15",
+            "Agachamento sumô: 4x10",
+            "Leg press 45°: 4x12",
+            "Extensora: 4x12-15",
+            "Stiff com barra: 4x12",
+            "Elevação pélvica: 4x20",
           ],
-          D: ["Stiff 4x12", "Cadeira extensora 4x15", "Flexora 4x15"],
-          E: ["Panturrilha 4x20", "Sumô com halteres 4x12", "Abdominais 3x20"],
+          D: [
+            "Remada curvada: 4x12",
+            "Elevação lateral: 4x12-15",
+            "Barra fixa: 4x até a falha",
+            "Face pull: 4x12",
+            "Rosca martelo: 4x12",
+            ],
+          E: [
+            "Cadeira adutora: 4x15",
+            "Agachamento frontal: 4x10-12",
+            "Stiff com halteres: 4x12",
+            "15 minutos de HIIT na esteira",
+            ],
         },
       },
     };
